@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import './Contact.css';
 
 const Contact = ({name, avatar, online}) => {
-    console.log(online)
     return (
         <div className="Contact">
             <div>
